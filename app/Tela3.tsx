@@ -99,12 +99,13 @@ export default function Tela3() {
                                         <Text style={styles.Fonte}>Tem de tudo</Text>
                                     </View>
                                     <View style={[styles.containerProp, { gap: 25 }]} >
-                                        <View>
+                                        <View style={{width: '90%'}} >
                                             <View style={[styles.recProp]} >
                                                 <View style={[styles.recLogo, { backgroundColor: '#0a0a0a' }]}  >
                                                     <Image
                                                         source={require('../assets/shoppe.png')}
                                                         resizeMode='contain'
+                                                        style={{ width: 50, height: '100%', }}
                                                     />
                                                 </View>
                                                 <View style={styles.recBody}>
@@ -116,7 +117,7 @@ export default function Tela3() {
                                                 </View>
                                             </View>
                                         </View>
-                                        <View>
+                                        <View style={{width: '90%'}} >
                                             <View style={[styles.recProp]} >
                                                 <View style={[styles.recLogo, { backgroundColor: '#0a0a0a' }]}  >
                                                     <Image
@@ -135,8 +136,8 @@ export default function Tela3() {
                                             </View>
                                         </View>
 
-                                        <View>
-                                            <View style={[styles.recProp]} >
+                                        <View style={{width: '90%'}} >
+                                            <View style={[styles.recProp ]} >
                                                 <View style={[styles.recLogo, { backgroundColor: '#0a0a0a' }]}  >
                                                     <Image
                                                         source={require('../assets/magalu.png')}
@@ -154,7 +155,7 @@ export default function Tela3() {
                                             </View>
                                         </View>
 
-                                        <View>
+                                        <View style={{width: '90%'}} >
                                             <View style={[styles.recProp]} >
                                                 <View style={[styles.recLogo, { backgroundColor: '#0a0a0a' }]}  >
                                                     <Image
